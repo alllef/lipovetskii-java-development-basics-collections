@@ -34,8 +34,6 @@ public class CircleDisposition {
     }
 
     public void printAllDispositions() {
-        generateCircles(10);
-        System.out.println(circleHashSet);
 
         for (Circle firstCircle : circleHashSet.getHashSet()) {
 
